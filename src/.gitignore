@@ -6,9 +6,11 @@ target/
 pom.xml.tag
 
 # IDE
-.idea/
-*.iml
-*.iws
+out/
+target/
+.idea
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 # OS
 .DS_Store
